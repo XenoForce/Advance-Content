@@ -1,0 +1,29 @@
+
+type: flying
+speed: 3
+flying: true
+health: 1000
+engineOffset: 5.5
+range: 160
+
+
+
+weapons: [
+{
+	name: blaster
+	reload: 7
+	shootSound: missile
+	bullet: {
+		type: BasicBulletType
+		width: 7
+		height: 14
+		damage: 35
+		speed: 2
+		lifetime: 160
+	}
+}]
+
+
+research: duo
+
+alwaysUnlocked: true
